@@ -1,5 +1,8 @@
-
 rails_tut_url: "https://www.railstutorial.org/"
 image_tag_url: "https://rubyonrails.org/"
 michaelhartl_url: "https://www.michaelhartl.com/"
 news_url: "https://news.railstutorial.org/"
+email_regex: !ruby/regexp /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
+max_email_length: 255
+min_password_length: 6
+max_name_length: 20

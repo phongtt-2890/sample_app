@@ -30,6 +30,8 @@ gem "bootstrap-sass", "3.4.1"
 
 gem "rails-i18n"
 
+gem "bcrypt", "3.1.13"
+
 group :development, :test do
   gem "pry", "~>0.14.0"
   gem "rubocop", "~> 0.74.0", require: false
