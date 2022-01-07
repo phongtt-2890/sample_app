@@ -1,4 +1,13 @@
 vi:
+  activerecord:
+    models:
+      user: "Người dùng"
+    attributes:
+      user:
+        name: "Tên"
+        email: "Email"
+        password: "Mật khẩu"
+        password_confirmation: "Xác nhận mật khẩu"
   home: "Trang chủ"
   about: "Giới thiệu"
   contact: "Liên hệ"
@@ -11,3 +20,9 @@ vi:
   intro: "Đây là trang chủ của"
   sample_app: "chương trình mẫu."
   intro_signup: "Đăng ký cho người dùng mới"
+  error: "Lỗi"
+  user_not_found: "Không tìm thấy tài khoản"
+  create_user_success: "Tạo tài khoản thành công"
+  create_user_fail: "Tạo tài khoản không thành công"
+  submit_create_user: "Tạo tài khoản"
+  form_errors: "Dữ liệu nhập vào có "
