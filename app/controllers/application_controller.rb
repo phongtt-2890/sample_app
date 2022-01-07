@@ -20,6 +20,14 @@ class ApplicationController < ActionController::Base
     {locale: I18n.locale}
   end
 
+  def load_user
+    @user = User.find_by id: params[:id]
+    return if @user
+
+    flash[:danger] = t "user_not_found"
+    redirect_to root_path
+  end
+
   protect_from_forgery with: :exception
   include SessionsHelper
 end
