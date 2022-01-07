@@ -1,0 +1,13 @@
+vi:
+  home: "Trang chủ"
+  about: "Giới thiệu"
+  contact: "Liên hệ"
+  help: "Trợ giúp"
+  login: "Đăng nhập"
+  news: "Tin tức"
+  signup: "Đăng ký ngay!"
+  rails_tut: "Hướng dẫn Ruby on Rails"
+  title: "Chương trình mẫu Ruby on Rails"
+  intro: "Đây là trang chủ của"
+  sample_app: "chương trình mẫu."
+  intro_signup: "Đăng ký cho người dùng mới"
