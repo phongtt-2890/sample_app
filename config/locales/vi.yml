@@ -35,3 +35,4 @@ vi:
   setting: "Cài đặt"
   log_out: "Đăng xuất"
   invalid_email_password: "Email hoặc mật khẩu không chính xác!"
+  remember_me: "Duy trì đăng nhập trên thiết bị này"
