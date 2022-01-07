@@ -10,3 +10,4 @@ max_name_length: 30
 avatar_size: 50
 avatar_size_l: 80
 user_per_page: 10
+expired_password_time: 2
