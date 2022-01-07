@@ -4,11 +4,11 @@ class User < ApplicationRecord
   attr_accessor :remember_token
 
   validates :name, presence: true, length: {maximum: Settings.max_name_length}
-  validates :email, presence: true,
+  validates :email, presence: true, uniqueness: {case_sensitive: true},
     length: {maximum: Settings.max_email_length},
     format: {with: Settings.email_regex}
   validates :password, presence: true,
-    length: {minimum: Settings.min_password_length}, if: :password
+    length: {minimum: Settings.min_password_length}, allow_nil: true
   has_secure_password
 
   class << self
