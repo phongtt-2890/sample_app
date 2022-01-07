@@ -9,6 +9,7 @@ gem "bootsnap", require: false
 gem "bootstrap-sass", "3.4.1"
 gem "config"
 gem "faker", "2.1.2"
+gem "figaro"
 gem "importmap-rails"
 gem "jbuilder"
 gem "jquery-rails"
