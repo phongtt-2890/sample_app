@@ -32,6 +32,10 @@ gem "rails-i18n"
 
 gem "bcrypt", "3.1.13"
 
+gem "webpacker"
+
+gem "jquery-rails"
+
 group :development, :test do
   gem "pry", "~>0.14.0"
   gem "rubocop", "~> 0.74.0", require: false
