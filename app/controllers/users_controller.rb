@@ -22,6 +22,14 @@ class UsersController < ApplicationController
     end
   end
 
+  def forget
+    update_attribute :remember_digest, nil
+  end
+
+  def edit
+    @user = User.find_b id: params[:id]
+  end
+
   private
 
   def user_params
