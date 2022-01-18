@@ -97,7 +97,7 @@ GEM
     crass (1.0.6)
     deep_merge (1.2.2)
     digest (3.1.0)
-    dry-configurable (0.13.0)
+    dry-configurable (0.14.0)
       concurrent-ruby (~> 1.0)
       dry-core (~> 0.6)
     dry-container (0.9.0)
@@ -131,6 +131,8 @@ GEM
       dry-schema (~> 1.8, >= 1.8.0)
     erubi (1.10.0)
     execjs (2.8.1)
+    faker (2.1.2)
+      i18n (>= 0.8)
     ffi (1.15.5)
     globalid (1.0.0)
       activesupport (>= 5.0)
@@ -177,11 +179,12 @@ GEM
       net-protocol
       timeout
     nio4r (2.5.8)
-    nokogiri (1.13.0)
+    nokogiri (1.13.1)
       mini_portile2 (~> 2.7.0)
       racc (~> 1.4)
-    nokogiri (1.13.0-x86_64-linux)
+    nokogiri (1.13.1-x86_64-linux)
       racc (~> 1.4)
+    pagy (5.7.6)
     parallel (1.21.0)
     parser (3.1.0.0)
       ast (~> 2.4.1)
@@ -300,10 +303,12 @@ DEPENDENCIES
   bootstrap-sass (= 3.4.1)
   capybara
   config
+  faker (= 2.1.2)
   importmap-rails
   jbuilder
   jquery-rails
   mysql2 (~> 0.5)
+  pagy
   pry (~> 0.14.0)
   puma (~> 5.0)
   rails (~> 7.0.1)

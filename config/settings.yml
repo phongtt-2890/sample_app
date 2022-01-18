@@ -2,7 +2,11 @@ rails_tut_url: "https://www.railstutorial.org/"
 image_tag_url: "https://rubyonrails.org/"
 michaelhartl_url: "https://www.michaelhartl.com/"
 news_url: "https://news.railstutorial.org/"
+gravatar_url: "https://gravatar.com/emails"
 email_regex: !ruby/regexp /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
 max_email_length: 255
 min_password_length: 6
-max_name_length: 20
+max_name_length: 30
+avatar_size: 50
+avatar_size_l: 80
+user_per_page: 10
