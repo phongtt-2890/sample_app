@@ -1,0 +1,6 @@
+HOST: "localhost:3000"
+HOST_EMAIL: "phongtlcp@gmail.com"
+EMAIL_USER_NAME: ""
+EMAIL_USER_PASSWORD: ""
+EMAIL_ADDRESS: "smtp.mailtrap.io"
+EMAIL_PORT: "2525"
