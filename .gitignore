@@ -44,3 +44,4 @@ config/environments/*.local.yml
 yarn-debug.log*
 .yarn-integrity
 /config/application.yml
+/storage

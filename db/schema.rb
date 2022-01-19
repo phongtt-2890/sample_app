@@ -27,4 +27,7 @@ ActiveRecord::Schema.define(version: 2022_01_16_135700) do
     t.datetime "activated_at", precision: 6
   end
 
+  add_foreign_key "active_storage_attachments", "active_storage_blobs", column: "blob_id"
+  add_foreign_key "active_storage_variant_records", "active_storage_blobs", column: "blob_id"
+  add_foreign_key "microposts", "users"
 end
