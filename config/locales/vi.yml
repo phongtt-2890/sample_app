@@ -84,3 +84,7 @@ vi:
   micropost_feed: "Danh sách bài đăng"
   must_be_valid: "Không đúng định dạng"
   oversize_image: "Dung lượng phải nhỏ hơn 5MB"
+  follow: "Theo dõi"
+  unfollow: "Hủy theo dõi"
+  following: "Đang theo dõi"
+  followers: "Người theo dõi"

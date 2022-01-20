@@ -23,7 +23,10 @@ class UsersController < ApplicationController
     end
   end
 
-  def show; end
+  def show
+    @pagy, @microposts = pagy @user.microposts.newest,
+                              items: Settings.microposts_per_page
+  end
 
   def edit; end
 
@@ -55,13 +58,5 @@ class UsersController < ApplicationController
   def user_params
     params.require(:user).permit(:name, :email,
                                  :password, :password_confirmation)
-  end
-
-  def load_user
-    @user = User.find_by id: params[:id]
-    return if @user
-
-    flash[:danger] = t "user_not_found"
-    redirect_to root_path
   end
 end

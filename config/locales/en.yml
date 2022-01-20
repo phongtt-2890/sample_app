@@ -84,3 +84,7 @@ en:
   micropost_feed: "Micropost Feed"
   must_be_valid: "must be a valid image format"
   oversize_image: "should less than 5MB"
+  follow: "Follow"
+  unfollow: "Unfollow"
+  following: "Following"
+  followers: "Followers"
